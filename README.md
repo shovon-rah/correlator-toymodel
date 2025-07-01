@@ -1,2 +1,7 @@
-# correlator-toymodel
-This repository contains Python code and Jupyter notebooks associated with the paper: **"Statistical Resampling for Uncertainty Analysis in Lattice QCD: A Methodological Bench- mark"**
+This project simulates synthetic two-point correlation functions (inspired by lattice QCD hadron correlators), adds short-range AR(1) correlated noise, and analyzes the uncertainties using three common resampling techniques:
+
+- Jackknife
+- Bootstrap (with variable sample sizes)
+- Blocking resampling (with variable block sizes)
+
+Plots, uncertainty ratio comparisons, and insights into the behavior of resampling techniques under correlation are included.
